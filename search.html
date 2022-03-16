@@ -1,0 +1,173 @@
+<html>
+<head>
+    <style>
+        span#fil{
+            font-size: 20px;
+            font-weight: 700;
+        }
+        div#menu-box{
+            display: inline-block;
+            box-shadow: 2px 2px 2px 2px rgb(0, 0, 0,0.2);
+            padding: 20px 250px 100px 20px;
+            margin-left: 10px;
+        }
+        div#home-box{
+            display: flex;
+        }
+        div#inside-box{
+            margin-left: 13px;
+            width: 1000px;
+
+        }
+        img.bfg{
+            border-radius: 30px;
+        }
+        div#inside-b1{
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid lightgray;
+            
+        }
+        div#inside-1{
+            box-shadow: 2px 2px 2px 2px rgb(0, 0, 0,0.2);
+
+        }
+        div#inside-2{
+            box-shadow: 2px 2px 2px 2px rgb(0, 0, 0,0.2);
+            margin-top: 15px;
+
+        }
+        div#inside-b2{
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid lightgray;
+        }
+        div.pagination{
+            margin-top: 35px;
+            margin-left: 300px;
+        }
+        a{
+            text-decoration: none;
+            border: 1px solid gray;
+            color: black;
+            padding: 10px 15px 10px 15px;
+            border-radius: 10px;
+            
+        }
+    </style>
+
+</head>
+<body>
+    <div class="home">
+        <h1 style="margin-left: 10px;">Breakfast Places in Mumbai</h1>
+        <div id="home-box">
+            <div id="menu-box">
+                <span id="fil">Filters</span><br>
+                <h3>Select Location</h3>
+                <select name="" id="">
+                    <option disabled>Select</option>
+                    <option value="Del">Delhi</option>
+                    <option value="Mum">Mumbai</option>
+                </select>
+
+                <div>
+                    <h3>Cuisine</h3>
+                    <input type="checkbox" id="v1">
+                    <label for="v1">
+                        North Indian
+                    </label><br>
+                    <input type="checkbox" id="v1">
+                    <label for="v1">
+                        South Indian
+                    </label><br>
+                    <input type="checkbox" id="v1">
+                    <label for="v1">
+                        Chinese
+                    </label><br>
+                    <input type="checkbox" id="v1">
+                    <label for="v1">
+                        Fast Food
+                    </label><br>
+                    <input type="checkbox" id="v1">
+                    <label for="v1">
+                        Street Food
+                    </label>
+                    <h3>Cost For Two</h3>
+                    <input type="radio" id="v1">
+                    <label for="v1">
+                        Less than 500
+                    </label><br>
+                    <input type="radio" id="v1">
+                    <label for="v1">
+                        500 to 1000
+                    </label><br>
+                    <input type="radio" id="v1">
+                    <label for="v1">
+                        1000 to 1500
+                    </label><br>
+                    <input type="radio" id="v1">
+                    <label for="v1">
+                        2000 +
+                    </label><br>
+                    <h3>Sort</h3>
+                    <input type="radio" id="v1">
+                    <label for="v1">
+                        Price Low to high
+                    </label><br>
+                    <input type="radio" id="v1">
+                    <label for="v1">
+                        Price High to Low
+                    </label><br>
+                    
+                </div>
+
+            </div>
+            <div id="inside-box">
+                    <div id="inside-1" >
+                        <div id="inside-b1">
+                            <div style="flex: 0.6;"><img class="bfg" src="breakfast.jpg" alt="" width="100x" height="100px"></div>
+                            <div style="flex: 4;">
+                                <h2>The Big Chill Cakery</h2>
+                                <h3 style="font-weight: 200;color: gray;">FORT</h3>
+                                <h3 style="font-weight: 200;color: gray;">Shop 1, Plot D, Samruddi Complex, Chincholi</h3>
+                            </div>
+
+                        </div>
+                        <div style="padding: 10px;">
+                            <h3 style="font-weight: 200;color: gray;">CUISINES : Bakery</h3>
+                            <h3 style="font-weight: 200;color: gray;">COST FOR TWO : 700</h3>
+                        </div>
+                    </div>
+                    <div id="inside-2" >
+                        <div id="inside-b2">
+                            <div style="flex: 0.6;"><img class="bfg" src="breakfast.jpg" alt="" width="100x" height="100px"></div>
+                            <div style="flex: 4;">
+                                <h2>The Big Chill Cakery</h2>
+                                <h3 style="font-weight: 200;color: gray;">FORT</h3>
+                                <h3 style="font-weight: 200;color: gray;">Shop 1, Plot D, Samruddi Complex, Chincholi</h3>
+                            </div>
+
+                        </div>
+                        <div style="padding: 10px;">
+                            <h3 style="font-weight: 200;color: gray;">CUISINES : Bakery</h3>
+                            <h3 style="font-weight: 200;color: gray;">COST FOR TWO : 700</h3>
+                        </div>
+                    </div>
+                    <div class="pagination">
+                        <a href="#">&laquo;</a>
+                        <a href="#">1</a>
+                        <a href="#">2</a>
+                        <a href="#">3</a>
+                        <a href="#">4</a>
+                        <a href="#">5</a>
+                        <a href="#">6</a>
+                        <a href="#">&raquo;</a>
+                    </div>
+
+            </div>
+        </div>
+
+    </div>
+    
+</body>
+</html>
